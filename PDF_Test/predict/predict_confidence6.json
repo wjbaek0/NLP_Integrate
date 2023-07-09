@@ -1,0 +1,1302 @@
+{
+    "confidence_score": {
+        "2015_지게차 운전석 외 탑승으로 인해 떨어짐.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 6
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 4
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 7
+                }
+            ]
+        },
+        "부재2016-044 어선 제225득명호 선원사망사건-요약서.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 4
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 5
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 6
+                }
+            ]
+        },
+        "2016_태백선 자미원역 무궁화호 탈선.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 5
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 7
+                }
+            ]
+        },
+        "2016_서울9호선 신논현역 전동열차 탈선.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 5
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 3
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 5
+                }
+            ]
+        },
+        "부재2016-044 어선 제225득명호 선원사망사건.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 3
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 4
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 3
+                }
+            ]
+        },
+        "재해사례-20210318 논산 전자부품공장 화재.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 6
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 8
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 2
+                }
+            ]
+        },
+        "2016_부산1호선 범내골역 전동열차 화재.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 6
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 4
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 5
+                }
+            ]
+        },
+        "2018_다세대주택 신축현장 가설흙막이 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 5
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 7
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 3
+                }
+            ]
+        },
+        "2016_○○○○순환 ○○터널 막장 지표관통 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 5
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 4
+                }
+            ]
+        },
+        "2018_재건축 건물 철거현장 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 4
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 6
+                }
+            ]
+        },
+        "362019_KOSHA-MIA-201506(150902)-플랜지 이탈에 의한 폐산 다량 누출 사고 사례 속보.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 7
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 5
+                }
+            ]
+        },
+        "2017_업무시설 신축현장 기존옹벽 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 4
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 8
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 5
+                }
+            ]
+        },
+        "2016_경부선 마전신호소 선로전환기 파손.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 6
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 8
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 6
+                }
+            ]
+        },
+        "2013_야적장 청소 중 후진하던 로우더 바퀴에 깔림.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 4
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 4
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 4
+                }
+            ]
+        },
+        "2016_전라선 전주~신리역 화물열차 탈선.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 3
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 6
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 7
+                }
+            ]
+        },
+        "2015_○○○○ 사무동 증축공사 PC구조물 붕괴.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 4
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 4
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 6
+                }
+            ]
+        },
+        "2016_경부선 대전역 화물열차 탈선.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 6
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 5
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 4
+                }
+            ]
+        },
+        "2015_○○센트럴 복합단지 조성공사 중 천공기 전도사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 3
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 5
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 5
+                }
+            ]
+        },
+        "344636_질식재해사례속보_도금폐수처리시설.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 5
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 8
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 2
+                }
+            ]
+        },
+        "2016_○○○○ 아파트 데크플레이트 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 5
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 7
+                }
+            ]
+        },
+        "2018_ ○○블럭 주상복합 건설현장 화재사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 7
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 2
+                }
+            ]
+        },
+        "2018_○○○교 점검용 계단 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 5
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 8
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 2
+                }
+            ]
+        },
+        "2016_서울4호선 숙대입구~삼각지역 전동열차 탈선.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 3
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 5
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 4
+                }
+            ]
+        },
+        "2016_○○○ 하수관로 정비공사 중 토사 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 4
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 6
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 6
+                }
+            ]
+        },
+        "2016_경원선 동두천 중앙역 전동열차 탈선.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 6
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 7
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 2
+                }
+            ]
+        },
+        "371017_breaking_news.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 3
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 6
+                }
+            ]
+        },
+        "371011_breaking_news.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 4
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 3
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 3
+                }
+            ]
+        },
+        "B12_5.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 3
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 3
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 5
+                }
+            ]
+        },
+        "B13_2017_화성 대형상가 화재.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 6
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 3
+                }
+            ]
+        },
+        "2017_○○마을 진입로 개선공사현장 장비 전도사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 3
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 2
+                }
+            ]
+        },
+        "2013_원목하역 작업 중 산소결핍에 의한 질식.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 5
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 3
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 2
+                }
+            ]
+        },
+        "2016_○○○ 재개발현장 항타기 전도사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 3
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 4
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 4
+                }
+            ]
+        },
+        "362073_150214.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 8
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 3
+                }
+            ]
+        },
+        "2018_하수관 공사현장 토사 붕괴사고.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 6
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 5
+                }
+            ]
+        },
+        "2016_경부선 연화역 구내 화물열차 탈선.txt": {
+            "pred_class": "유해화학물질사고",
+            "confidence_score": [
+                {
+                    "title": "사업장대규모인적사고",
+                    " value": 17
+                },
+                {
+                    "title": "다중밀집시설대형화재",
+                    " value": 21
+                },
+                {
+                    "title": "철도교통사고",
+                    " value": 21
+                },
+                {
+                    "title": "해양선박사고",
+                    " value": 19
+                },
+                {
+                    "title": "항공기사고",
+                    " value": 2
+                },
+                {
+                    "title": "도로교통사고",
+                    " value": 3
+                },
+                {
+                    "title": "유해화학물질사고",
+                    " value": 22
+                },
+                {
+                    "title": "감염병",
+                    " value": 3
+                }
+            ]
+        }
+    },
+    "statistics": {
+        "유해화학물질사고": 35
+    }
+}

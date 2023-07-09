@@ -1,0 +1,55 @@
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://211.115.91.48:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 235-856-115
+ * Detected change in '/home/xaiplanet/xai_workspace/nlp_integrate/app.py', reloading
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/popen_fork.py", line 27, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+  File "/home/xaiplanet/xai_workspace/nlp_integrate/app.py", line 447, in child_inter
+    raise KeyboardInterrupt
+KeyboardInterrupt
+Process Process-1:
+Traceback (most recent call last):
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/xaiplanet/xai_workspace/nlp_integrate/app.py", line 432, in child_func
+    msg = conn.recv()
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+  File "/home/xaiplanet/xai_workspace/nlp_integrate/app.py", line 447, in child_inter
+    raise KeyboardInterrupt
+KeyboardInterrupt
+Process Process-1:
+Traceback (most recent call last):
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "app.py", line 432, in child_func
+    msg = conn.recv()
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/connection.py", line 250, in recv
+    buf = self._recv_bytes()
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/connection.py", line 414, in _recv_bytes
+    buf = self._recv(4)
+  File "/home/xaiplanet/miniconda3/envs/nlp_Integrate/lib/python3.8/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+  File "app.py", line 447, in child_inter
+    raise KeyboardInterrupt
+KeyboardInterrupt

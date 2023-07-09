@@ -1,0 +1,77 @@
+cache_path: null
+coref_threshold: 0.85
+coref_weight: 1.0
+ed_embeddings_count: 300
+encoder_config_path: null
+encoder_path: beomi/kcbert-base
+entity_types: !!python/object/apply:collections.OrderedDict
+- - - cause
+    - !!python/object:jerex.entities.EntityType
+      _identifier: cause
+      _index: 0
+      _short_name: cause
+      _verbose_name: "\uC0AC\uACE0\uC6D0\uC778"
+  - - result
+    - !!python/object:jerex.entities.EntityType
+      _identifier: result
+      _index: 1
+      _short_name: result
+      _verbose_name: "\uACB0\uACFC"
+entity_weight: 0.25
+examples_filename: examples.html
+lowercase: false
+lr: 5.0e-05
+lr_warmup: 0.1
+max_coref_pairs_inference: 10
+max_coref_pairs_train: null
+max_rel_pairs_inference: 10
+max_rel_pairs_train: null
+max_span_size: 10
+max_spans_inference: 10
+max_spans_train: null
+mention_threshold: 0.85
+mention_weight: 1.0
+meta_embedding_size: 25
+model_type: joint_multi_instance
+position_embeddings_count: 3000
+predictions_filename: predictions.json
+prop_drop: 0.1
+rel_threshold: 0.6
+relation_types: !!python/object/apply:collections.OrderedDict
+- - - scd_fire_physical_accident
+    - !!python/object:jerex.entities.RelationType
+      _identifier: scd_fire_physical_accident
+      _index: 0
+      _short_name: scd_fire_physical_accident
+      _symmetric: false
+      _verbose_name: "\uD654\uC7AC:\uBB3C\uC801\uC0AC\uACE0"
+  - - scd_fire_personnel_accident
+    - !!python/object:jerex.entities.RelationType
+      _identifier: scd_fire_personnel_accident
+      _index: 1
+      _short_name: scd_fire_personnel_accident
+      _symmetric: false
+      _verbose_name: "\uD654\uC7AC:\uC778\uC801\uC0AC\uACE0"
+  - - scd_construction_physical_accident
+    - !!python/object:jerex.entities.RelationType
+      _identifier: scd_construction_physical_accident
+      _index: 2
+      _short_name: scd_construction_physical_accident
+      _symmetric: false
+      _verbose_name: "\uACF5\uC0AC\uC7A5:\uBB3C\uC801\uC0AC\uACE0"
+  - - scd_construction_personnel_accident
+    - !!python/object:jerex.entities.RelationType
+      _identifier: scd_construction_personnel_accident
+      _index: 3
+      _short_name: scd_construction_personnel_accident
+      _symmetric: false
+      _verbose_name: "\uACF5\uC0AC\uC7A5:\uC778\uC801\uC0AC\uACE0"
+relation_weight: 1.0
+sentence_dist_embeddings_count: 50
+size_embeddings_count: 30
+store_examples: true
+store_predictions: true
+tmp_predictions_filename: .predictions_tmp.json
+token_dist_embeddings_count: 3000
+tokenizer_path: beomi/kcbert-base
+weight_decay: 0.01

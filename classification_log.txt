@@ -1,0 +1,21 @@
+<classification predict start....>
+-----------------------------------------
+>> 추론된 값은 ==> 다중밀집시설대형화재
+> 사업장대규모인적사고의 confidence score : 0.0 % 
+> 다중밀집시설대형화재의 confidence score : 99.99998 % 
+> 철도교통사고의 confidence score : 0.0 % 
+> 해양선박사고의 confidence score : 2e-05 % 
+> 항공기사고의 confidence score : 0 % 
+> 도로교통사고의 confidence score : 0 % 
+> 유해화학물질사고의 confidence score : 0.0 % 
+> 감염병의 confidence score : 0 % 
+----- json out -----
+{'title': '사업장대규모인적사고', ' value': 0.0}
+{'title': '다중밀집시설대형화재', ' value': 99.99998}
+{'title': '철도교통사고', ' value': 0.0}
+{'title': '해양선박사고', ' value': 2e-05}
+{'title': '항공기사고', ' value': 0}
+{'title': '도로교통사고', ' value': 0}
+{'title': '유해화학물질사고', ' value': 0.0}
+{'title': '감염병', ' value': 0}
+[predict Complete: 0:00:15.601963]

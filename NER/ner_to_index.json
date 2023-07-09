@@ -1,0 +1,21 @@
+{
+    "[CLS]": 0,
+    "[SEP]": 1,
+    "[PAD]": 2,
+    "[MASK]": 3,
+    "O": 4,
+    "B-DAT": 5,
+    "I-DAT": 6,
+    "B-TIM": 7,
+    "I-TIM": 8,
+    "B-LOC": 9,
+    "I-LOC": 10,
+    "B-DMG": 11,
+    "I-DMG": 12,
+    "B-VIC": 13,
+    "I-VIC": 14,
+    "B-INJ": 15,
+    "I-INJ": 16,
+    "B-DTH": 17,
+    "I-DTH": 18
+}

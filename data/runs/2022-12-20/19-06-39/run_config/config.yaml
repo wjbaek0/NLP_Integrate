@@ -1,0 +1,31 @@
+dataset:
+  test_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/datasets/docred_joint/TEST.json
+model:
+  model_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/2022-11-18/18-50-04/checkpoint/epoch=23-step=35519.ckpt
+  tokenizer_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/2022-11-18/18-50-04/checkpoint
+  encoder_config_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/2022-11-18/18-50-04/checkpoint
+  mention_threshold: null
+  coref_threshold: null
+  rel_threshold: null
+inference:
+  valid_batch_size: 1
+  test_batch_size: 1
+  max_spans: 10
+  max_coref_pairs: 10
+  max_rel_pairs: 10
+distribution:
+  gpus:
+  - 0
+  accelerator: ''
+  prepare_data_per_node: false
+misc:
+  store_predictions: false
+  store_examples: false
+  flush_logs_every_n_steps: 1000
+  log_every_n_steps: 1000
+  deterministic: false
+  seed: null
+  cache_path: null
+  precision: 32
+  profiler: null
+  final_valid_evaluate: false

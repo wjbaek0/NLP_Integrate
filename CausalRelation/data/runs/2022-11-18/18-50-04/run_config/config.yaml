@@ -1,0 +1,66 @@
+datasets:
+  train_path: ./data/kcbert_joint/datasets/joint_20221118_all/joint_train.json
+  valid_path: ./data/kcbert_joint/datasets/joint_20221118_all/joint_val.json
+  test_path: ./data/kcbert_joint/datasets/joint_20221118_all/joint_test.json
+  types_path: ./data/kcbert_joint/datasets/types.json
+model:
+  model_type: joint_multi_instance
+  encoder_path: beomi/kcbert-base
+  tokenizer_path: beomi/kcbert-base
+  mention_threshold: 0.85
+  coref_threshold: 0.85
+  rel_threshold: 0.6
+  prop_drop: 0.1
+  meta_embedding_size: 25
+  size_embeddings_count: 30
+  ed_embeddings_count: 300
+  token_dist_embeddings_count: 3000
+  sentence_dist_embeddings_count: 50
+  position_embeddings_count: 3000
+sampling:
+  neg_mention_count: 200
+  neg_coref_count: 200
+  neg_relation_count: 200
+  max_span_size: 10
+  sampling_processes: 8
+  neg_mention_overlap_ratio: 0.5
+  lowercase: false
+loss:
+  mention_weight: 1.0
+  coref_weight: 1.0
+  entity_weight: 0.25
+  relation_weight: 1.0
+inference:
+  valid_batch_size: 1
+  test_batch_size: 1
+  max_spans: 10
+  max_coref_pairs: 10
+  max_rel_pairs: 10
+training:
+  batch_size: 1
+  min_epochs: 1000
+  max_epochs: 1000
+  lr: 5.0e-05
+  lr_warmup: 0.1
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  accumulate_grad_batches: 1
+  max_spans: null
+  max_coref_pairs: null
+  max_rel_pairs: null
+distribution:
+  gpus:
+  - 0
+  accelerator: ''
+  prepare_data_per_node: false
+misc:
+  store_predictions: true
+  store_examples: true
+  flush_logs_every_n_steps: 1000
+  log_every_n_steps: 1000
+  deterministic: false
+  seed: null
+  cache_path: null
+  precision: 32
+  profiler: null
+  final_valid_evaluate: true

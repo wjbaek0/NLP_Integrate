@@ -1,0 +1,745 @@
+cache_path: /home/markus/Studium/Masterthesis/cache
+coref_threshold: 0.85
+coref_weight: 1.0
+ed_embeddings_count: 300
+encoder_config_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/models/docred_joint/joint_multi_instance
+encoder_path: null
+entity_types: !!python/object/apply:collections.OrderedDict
+- - - LOC
+    - !!python/object:jerex.entities.EntityType
+      _identifier: LOC
+      _index: 0
+      _short_name: LOC
+      _verbose_name: LOC
+  - - MISC
+    - !!python/object:jerex.entities.EntityType
+      _identifier: MISC
+      _index: 1
+      _short_name: MISC
+      _verbose_name: MISC
+  - - PER
+    - !!python/object:jerex.entities.EntityType
+      _identifier: PER
+      _index: 2
+      _short_name: PER
+      _verbose_name: PER
+  - - NUM
+    - !!python/object:jerex.entities.EntityType
+      _identifier: NUM
+      _index: 3
+      _short_name: NUM
+      _verbose_name: NUM
+  - - TIME
+    - !!python/object:jerex.entities.EntityType
+      _identifier: TIME
+      _index: 4
+      _short_name: TIME
+      _verbose_name: TIME
+  - - ORG
+    - !!python/object:jerex.entities.EntityType
+      _identifier: ORG
+      _index: 5
+      _short_name: ORG
+      _verbose_name: ORG
+entity_weight: 0.25
+examples_filename: examples_test.html
+lowercase: false
+lr: 5.0e-05
+lr_warmup: 0.1
+max_coref_pairs_inference: null
+max_coref_pairs_train: 100
+max_rel_pairs_inference: null
+max_rel_pairs_train: 100
+max_span_size: 10
+max_spans_inference: null
+max_spans_train: 100
+mention_threshold: 0.85
+mention_weight: 1.0
+meta_embedding_size: 25
+model_type: joint_multi_instance
+position_embeddings_count: 700
+predictions_filename: predictions.json
+prop_drop: 0.1
+rel_threshold: 0.6
+relation_types: !!python/object/apply:collections.OrderedDict
+- - - P1376
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1376
+      _index: 0
+      _short_name: P1376
+      _symmetric: false
+      _verbose_name: capital of
+  - - P607
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P607
+      _index: 1
+      _short_name: P607
+      _symmetric: false
+      _verbose_name: conflict
+  - - P136
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P136
+      _index: 2
+      _short_name: P136
+      _symmetric: false
+      _verbose_name: genre
+  - - P137
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P137
+      _index: 3
+      _short_name: P137
+      _symmetric: false
+      _verbose_name: operator
+  - - P131
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P131
+      _index: 4
+      _short_name: P131
+      _symmetric: false
+      _verbose_name: located in the administrative territorial entity
+  - - P527
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P527
+      _index: 5
+      _short_name: P527
+      _symmetric: false
+      _verbose_name: has part
+  - - P1412
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1412
+      _index: 6
+      _short_name: P1412
+      _symmetric: false
+      _verbose_name: languages spoken, written or signed
+  - - P206
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P206
+      _index: 7
+      _short_name: P206
+      _symmetric: false
+      _verbose_name: located in or next to body of water
+  - - P205
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P205
+      _index: 8
+      _short_name: P205
+      _symmetric: false
+      _verbose_name: basin country
+  - - P449
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P449
+      _index: 9
+      _short_name: P449
+      _symmetric: false
+      _verbose_name: original network
+  - - P127
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P127
+      _index: 10
+      _short_name: P127
+      _symmetric: false
+      _verbose_name: owned by
+  - - P123
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P123
+      _index: 11
+      _short_name: P123
+      _symmetric: false
+      _verbose_name: publisher
+  - - P86
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P86
+      _index: 12
+      _short_name: P86
+      _symmetric: false
+      _verbose_name: composer
+  - - P840
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P840
+      _index: 13
+      _short_name: P840
+      _symmetric: false
+      _verbose_name: narrative location
+  - - P355
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P355
+      _index: 14
+      _short_name: P355
+      _symmetric: false
+      _verbose_name: subsidiary
+  - - P737
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P737
+      _index: 15
+      _short_name: P737
+      _symmetric: false
+      _verbose_name: influenced by
+  - - P740
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P740
+      _index: 16
+      _short_name: P740
+      _symmetric: false
+      _verbose_name: location of formation
+  - - P190
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P190
+      _index: 17
+      _short_name: P190
+      _symmetric: false
+      _verbose_name: sister city
+  - - P576
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P576
+      _index: 18
+      _short_name: P576
+      _symmetric: false
+      _verbose_name: dissolved, abolished or demolished
+  - - P194
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P194
+      _index: 19
+      _short_name: P194
+      _symmetric: false
+      _verbose_name: legislative body
+  - - P112
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P112
+      _index: 20
+      _short_name: P112
+      _symmetric: false
+      _verbose_name: founded by
+  - - P118
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P118
+      _index: 21
+      _short_name: P118
+      _symmetric: false
+      _verbose_name: league
+  - - P17
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P17
+      _index: 22
+      _short_name: P17
+      _symmetric: false
+      _verbose_name: country
+  - - P19
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P19
+      _index: 23
+      _short_name: P19
+      _symmetric: false
+      _verbose_name: place of birth
+  - - P3373
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P3373
+      _index: 24
+      _short_name: P3373
+      _symmetric: false
+      _verbose_name: sibling
+  - - P6
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P6
+      _index: 25
+      _short_name: P6
+      _symmetric: false
+      _verbose_name: head of government
+  - - P276
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P276
+      _index: 26
+      _short_name: P276
+      _symmetric: false
+      _verbose_name: location
+  - - P1001
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1001
+      _index: 27
+      _short_name: P1001
+      _symmetric: false
+      _verbose_name: applies to jurisdiction
+  - - P580
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P580
+      _index: 28
+      _short_name: P580
+      _symmetric: false
+      _verbose_name: start time
+  - - P582
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P582
+      _index: 29
+      _short_name: P582
+      _symmetric: false
+      _verbose_name: end time
+  - - P585
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P585
+      _index: 30
+      _short_name: P585
+      _symmetric: false
+      _verbose_name: point in time
+  - - P463
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P463
+      _index: 31
+      _short_name: P463
+      _symmetric: false
+      _verbose_name: member of
+  - - P676
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P676
+      _index: 32
+      _short_name: P676
+      _symmetric: false
+      _verbose_name: lyrics by
+  - - P674
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P674
+      _index: 33
+      _short_name: P674
+      _symmetric: false
+      _verbose_name: characters
+  - - P264
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P264
+      _index: 34
+      _short_name: P264
+      _symmetric: false
+      _verbose_name: record label
+  - - P108
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P108
+      _index: 35
+      _short_name: P108
+      _symmetric: false
+      _verbose_name: employer
+  - - P102
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P102
+      _index: 36
+      _short_name: P102
+      _symmetric: false
+      _verbose_name: member of political party
+  - - P25
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P25
+      _index: 37
+      _short_name: P25
+      _symmetric: false
+      _verbose_name: mother
+  - - P27
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P27
+      _index: 38
+      _short_name: P27
+      _symmetric: false
+      _verbose_name: country of citizenship
+  - - P26
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P26
+      _index: 39
+      _short_name: P26
+      _symmetric: false
+      _verbose_name: spouse
+  - - P20
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P20
+      _index: 40
+      _short_name: P20
+      _symmetric: false
+      _verbose_name: place of death
+  - - P22
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P22
+      _index: 41
+      _short_name: P22
+      _symmetric: false
+      _verbose_name: father
+  - - P807
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P807
+      _index: 42
+      _short_name: P807
+      _symmetric: false
+      _verbose_name: separated from
+  - - P800
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P800
+      _index: 43
+      _short_name: P800
+      _symmetric: false
+      _verbose_name: notable work
+  - - P279
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P279
+      _index: 44
+      _short_name: P279
+      _symmetric: false
+      _verbose_name: subclass of
+  - - P1336
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1336
+      _index: 45
+      _short_name: P1336
+      _symmetric: false
+      _verbose_name: territory claimed by
+  - - P577
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P577
+      _index: 46
+      _short_name: P577
+      _symmetric: false
+      _verbose_name: publication date
+  - - P570
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P570
+      _index: 47
+      _short_name: P570
+      _symmetric: false
+      _verbose_name: date of death
+  - - P571
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P571
+      _index: 48
+      _short_name: P571
+      _symmetric: false
+      _verbose_name: inception
+  - - P178
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P178
+      _index: 49
+      _short_name: P178
+      _symmetric: false
+      _verbose_name: developer
+  - - P179
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P179
+      _index: 50
+      _short_name: P179
+      _symmetric: false
+      _verbose_name: series
+  - - P272
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P272
+      _index: 51
+      _short_name: P272
+      _symmetric: false
+      _verbose_name: production company
+  - - P170
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P170
+      _index: 52
+      _short_name: P170
+      _symmetric: false
+      _verbose_name: creator
+  - - P171
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P171
+      _index: 53
+      _short_name: P171
+      _symmetric: false
+      _verbose_name: parent taxon
+  - - P172
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P172
+      _index: 54
+      _short_name: P172
+      _symmetric: false
+      _verbose_name: ethnic group
+  - - P175
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P175
+      _index: 55
+      _short_name: P175
+      _symmetric: false
+      _verbose_name: performer
+  - - P176
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P176
+      _index: 56
+      _short_name: P176
+      _symmetric: false
+      _verbose_name: manufacturer
+  - - P39
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P39
+      _index: 57
+      _short_name: P39
+      _symmetric: false
+      _verbose_name: position held
+  - - P30
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P30
+      _index: 58
+      _short_name: P30
+      _symmetric: false
+      _verbose_name: continent
+  - - P31
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P31
+      _index: 59
+      _short_name: P31
+      _symmetric: false
+      _verbose_name: instance of
+  - - P36
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P36
+      _index: 60
+      _short_name: P36
+      _symmetric: false
+      _verbose_name: capital
+  - - P37
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P37
+      _index: 61
+      _short_name: P37
+      _symmetric: false
+      _verbose_name: official language
+  - - P35
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P35
+      _index: 62
+      _short_name: P35
+      _symmetric: false
+      _verbose_name: head of state
+  - - P400
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P400
+      _index: 63
+      _short_name: P400
+      _symmetric: false
+      _verbose_name: platform
+  - - P403
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P403
+      _index: 64
+      _short_name: P403
+      _symmetric: false
+      _verbose_name: mouth of the watercourse
+  - - P361
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P361
+      _index: 65
+      _short_name: P361
+      _symmetric: false
+      _verbose_name: part of
+  - - P364
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P364
+      _index: 66
+      _short_name: P364
+      _symmetric: false
+      _verbose_name: original language of work
+  - - P569
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P569
+      _index: 67
+      _short_name: P569
+      _symmetric: false
+      _verbose_name: date of birth
+  - - P710
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P710
+      _index: 68
+      _short_name: P710
+      _symmetric: false
+      _verbose_name: participant
+  - - P1344
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1344
+      _index: 69
+      _short_name: P1344
+      _symmetric: false
+      _verbose_name: participant of
+  - - P488
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P488
+      _index: 70
+      _short_name: P488
+      _symmetric: false
+      _verbose_name: chairperson
+  - - P241
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P241
+      _index: 71
+      _short_name: P241
+      _symmetric: false
+      _verbose_name: military branch
+  - - P162
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P162
+      _index: 72
+      _short_name: P162
+      _symmetric: false
+      _verbose_name: producer
+  - - P161
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P161
+      _index: 73
+      _short_name: P161
+      _symmetric: false
+      _verbose_name: cast member
+  - - P166
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P166
+      _index: 74
+      _short_name: P166
+      _symmetric: false
+      _verbose_name: award received
+  - - P40
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P40
+      _index: 75
+      _short_name: P40
+      _symmetric: false
+      _verbose_name: child
+  - - P1441
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1441
+      _index: 76
+      _short_name: P1441
+      _symmetric: false
+      _verbose_name: present in work
+  - - P156
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P156
+      _index: 77
+      _short_name: P156
+      _symmetric: false
+      _verbose_name: followed by
+  - - P155
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P155
+      _index: 78
+      _short_name: P155
+      _symmetric: false
+      _verbose_name: follows
+  - - P150
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P150
+      _index: 79
+      _short_name: P150
+      _symmetric: false
+      _verbose_name: contains administrative territorial entity
+  - - P551
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P551
+      _index: 80
+      _short_name: P551
+      _symmetric: false
+      _verbose_name: residence
+  - - P706
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P706
+      _index: 81
+      _short_name: P706
+      _symmetric: false
+      _verbose_name: located on terrain feature
+  - - P159
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P159
+      _index: 82
+      _short_name: P159
+      _symmetric: false
+      _verbose_name: headquarters location
+  - - P495
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P495
+      _index: 83
+      _short_name: P495
+      _symmetric: false
+      _verbose_name: country of origin
+  - - P58
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P58
+      _index: 84
+      _short_name: P58
+      _symmetric: false
+      _verbose_name: screenwriter
+  - - P749
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P749
+      _index: 85
+      _short_name: P749
+      _symmetric: false
+      _verbose_name: parent organization
+  - - P54
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P54
+      _index: 86
+      _short_name: P54
+      _symmetric: false
+      _verbose_name: member of sports team
+  - - P57
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P57
+      _index: 87
+      _short_name: P57
+      _symmetric: false
+      _verbose_name: director
+  - - P50
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P50
+      _index: 88
+      _short_name: P50
+      _symmetric: false
+      _verbose_name: author
+  - - P1366
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1366
+      _index: 89
+      _short_name: P1366
+      _symmetric: false
+      _verbose_name: replaced by
+  - - P1365
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1365
+      _index: 90
+      _short_name: P1365
+      _symmetric: false
+      _verbose_name: replaces
+  - - P937
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P937
+      _index: 91
+      _short_name: P937
+      _symmetric: false
+      _verbose_name: work location
+  - - P140
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P140
+      _index: 92
+      _short_name: P140
+      _symmetric: false
+      _verbose_name: religion
+  - - P69
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P69
+      _index: 93
+      _short_name: P69
+      _symmetric: false
+      _verbose_name: educated at
+  - - P1198
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1198
+      _index: 94
+      _short_name: P1198
+      _symmetric: false
+      _verbose_name: unemployment rate
+  - - P1056
+    - !!python/object:jerex.entities.RelationType
+      _identifier: P1056
+      _index: 95
+      _short_name: P1056
+      _symmetric: false
+      _verbose_name: product or material produced
+relation_weight: 1.0
+sentence_dist_embeddings_count: 50
+size_embeddings_count: 30
+store_examples: true
+store_predictions: true
+tmp_predictions_filename: .predictions_tmp.json
+token_dist_embeddings_count: 700
+tokenizer_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/models/docred_joint/joint_multi_instance
+weight_decay: 0.01

@@ -1,0 +1,25 @@
+dataset:  
+  test_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/datasets/docred_joint/TEST.json
+
+model:
+  model_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/2022-11-18/18-50-04/checkpoint/epoch=23-step=35519.ckpt
+  tokenizer_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/2022-11-18/18-50-04/checkpoint
+  encoder_config_path: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/2022-11-18/18-50-04/checkpoint
+
+inference:
+  test_batch_size: 1
+
+distribution:
+  gpus: [0]
+  # gpus: [1]
+  accelerator: ''
+  prepare_data_per_node: false
+
+hydra:
+  run:
+    # dir: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+    dir: /home/xaiplanet/xai_workspace/nlp_integrate/CausalRelation/data/runs/
+  output_subdir: run_config
+
+
+# verbosity: false 

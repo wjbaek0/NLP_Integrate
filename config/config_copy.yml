@@ -1,0 +1,18 @@
+### main
+data_path: "/home/xaiplanet/xai_workspace/nlp_integrate/all_data"
+
+### pdf2txt
+save_path: "/home/xaiplanet/xai_workspace/nlp_integrate/all_data_sum"
+
+
+### prep
+save_path_plumber: "/home/xaiplanet/xai_workspace/nlp_integrate/all_data_sum"
+
+exceptions:  ['㎉', '㎘', '㎢', ';', '〉', '〕', '⇒', '》', '℉', '÷', '％', '+', '㎖', '｜', '½', '㎧', '&', '<', '>', '(', ')', ':', '：', '」', '』', '‧', '․', 'ｍ', '㎡', '×', '㎏', '$', '“', '·', '㎜', '"', '”', 
+'①', '②', '‘', '’', ',', "'", '㎞', '㎸', '℃', '%', '~', '…', '?', '[', ']', '=', '/', '.', '∼', '-', '㎥', '@', '～', 'ℓ', '㎝', '→', '', '】', '/', '㎠', '㎛', 'Ⅲ', 'Ⅱ','○','◯','³']
+
+symbol: ['가.', '나.', '라.', '마.', '바.', '사.', '아.', '자.', '- ', ' <','o ']
+
+
+### keyword
+font_path: "/home/xaiplanet/xai_workspace/nlp_integrate/Noto_Sans_KR/NotoSansKR-Medium.otf"
